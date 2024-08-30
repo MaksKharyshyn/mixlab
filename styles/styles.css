@@ -1,0 +1,470 @@
+.nav__link {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18.2px;
+    color: #000000;
+}
+
+.registr__btn {
+
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18.2px;
+    color: #6F1EAA;
+}
+
+.registr_btn {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18.2px;
+   background-color: #6F1EAA;
+   color: #FFFFFF;
+}
+
+.pharmacy {
+    width: 1440px;
+    height: 651px;
+    background-color: #FEF7E5;
+}
+
+.pharmacy__title {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 67px;
+    text-align: center;
+    color: #000000;
+}
+.pharmacy__text {
+    width: 491px;
+    height: 68px;
+    left: 11px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #000000;
+}
+
+.pharmacy__btn {
+    background-color:#6F1EAA;
+    color: #FFFFFF;
+}
+
+.dalmatian__title {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 53px;
+    color: #000000;
+}
+
+.right__title {
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31.68px;
+    color: #6F1EAA;
+}
+
+.right__text {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22.72px;
+    color: #000000;
+}
+
+.right__sub__title {
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31.68px;
+    color: #6F1EAA;
+}
+
+.right__subject {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22.72px;
+    color: #000000;  
+}
+
+.right_title {
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31.68px;
+    color: #6F1EAA;
+}
+
+.right__headline {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22.72px;
+    color: #000000;  
+}
+
+.works__title {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 53px;
+    text-align: center;
+    color: #000000;   
+}
+
+.works__title {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31.68px;
+    color: #6F1EAA;   
+}
+
+.works__text {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22.72px;
+    text-align: center;
+    color: #000000;
+}
+
+.works__sub__title {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31.68px;
+    color: #6F1EAA 
+}
+
+.works__subject {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22.72px;
+    text-align: center;
+    color: #000000
+}
+
+.works_title {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31.68px;
+    color: #6F1EAA 
+}
+
+.works_text {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22.72px;
+    text-align: center;
+    color: #000000 
+}
+
+.works__btn {
+    background-color:#6F1EAA;
+    color: #FFFFFF;
+}
+
+.oragne__text {
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22.4px;
+    letter-spacing: 0.96px;
+    color: #F7A500  
+}
+
+.taksa__title {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 53px;
+    color: #000000;  
+}
+
+.taksa__text {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22.72px;
+    color: #000000; 
+}
+
+.taksa__btn {
+    background-color:#6F1EAA;
+    color: #FFFFFF;
+}
+
+.pets__title {
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 43px;
+    line-height: 53px;
+    text-align: center;
+    color: #000000; 
+}
+
+.pets__text {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    text-align: center;
+    color: #000000; 
+}
+
+.descr__text {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    text-align: center;
+    color: #000000; 
+}
+
+.descr__link {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    color: #000000; 
+}
+
+.descr_text {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    text-align: center;
+    color: #000000; 
+}
+
+.descr_link {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    color: #000000; 
+}
+
+.descr__sub__text {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    text-align: center;
+    color: #000000;
+}
+
+.descr__sub__link {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    color: #000000; 
+}
+
+.descr__desk {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    text-align: center;
+    color: #000000; 
+}
+
+.descr__network {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    color: #000000; 
+}
+
+.descr__sub__desk {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    text-align: center;
+    color: #000000;  
+}
+
+.descr__hookup {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    color: #000000;  
+}
+
+.wild__title {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 53px;
+    text-align: center;
+    color: #000000; 
+}
+
+.wild__text {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 22.72px;
+    text-align: center;
+    color: #000000;
+}
+
+.orange__desk {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22.72px;
+    color: #F7A500;
+}
+
+.wild__sub__title {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31.68px;
+    text-align: center;
+    color: #000000; 
+}
+
+.sub__text {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 22.72px; 
+    color: #000000;
+}
+
+.card__link {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #6F1EAA; 
+}
+
+.orange_text {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22.72px;
+    color: #F7A500;
+}
+
+.wild__subtitle {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31.68px;
+    text-align: center;
+    color: #000000;
+}
+
+.wild__btn {
+    background-color:#6F1EAA;
+    color: #FFFFFF; 
+}
+
+.advertising {
+    width: 1440px;
+    height: 151px;
+    background-color: #6F1EAA;
+}
+
+
+.footer {
+    width: 1440px;
+    height: 430px;
+    background-color: #48156D;
+}
+
+.quick__title {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.6px;
+    color: #C282F0; 
+}
+
+.quick__link {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18.2px; 
+    color: #FFFFFF;
+}
+
+.contact__title {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.6px;
+    color: #C282F0;  
+}
+
+.contact__link {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18.2px; 
+    color: #FFFFFF; 
+}
+
+.address__title {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.6px;
+    color: #C282F0;  
+}
+
+.addres__map {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18.2px; 
+    color: #FFFFFF;
+}
+
+.social__block {
+    background-color: #48156D;
+}
+
+.social__ico {
+    width: 9.72px;
+    height: 24px;
+    color: #000000;
+    
+}
+
+.policy__block {
+background-color: #48156D;
+}
+
+.policy__link {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18.2px; 
+    color: #FFFFFF; 
+}
