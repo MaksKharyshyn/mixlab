@@ -1,3 +1,12 @@
+.header {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav__list {
+    display: flex;
+}
+
 .nav__link {
     font-family: Roboto;
     font-weight: 400;
