@@ -1,6 +1,7 @@
+/* header styles */
 .header {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .nav__list {
@@ -33,6 +34,8 @@
    color: #FFFFFF;
 }
 
+/* pharmacy styles */
+
 .pharmacy {
     width: 1440px;
     height: 651px;
@@ -63,6 +66,8 @@
     background-color:#6F1EAA;
     color: #FFFFFF;
 }
+
+/*dalmatian styles */
 
 .dalmatian__title {
     font-family: Roboto;
@@ -119,6 +124,8 @@
     line-height: 22.72px;
     color: #000000;  
 }
+
+/*works style*/
 
 .works__title {
     font-family: Roboto;
@@ -185,6 +192,7 @@
     color: #FFFFFF;
 }
 
+/*taksa style */
 .oragne__text {
     font-family: Roboto;
     font-weight: 700;
@@ -214,6 +222,8 @@
     background-color:#6F1EAA;
     color: #FFFFFF;
 }
+
+/*pets styles*/
 
 .pets__title {
     font-family: Roboto;
@@ -318,6 +328,8 @@
     color: #000000;  
 }
 
+/*wild styles */
+
 .wild__title {
     font-family: Roboto;
     font-weight: 400;
@@ -391,12 +403,15 @@
     color: #FFFFFF; 
 }
 
+/*advertising styles*/
+
 .advertising {
     width: 1440px;
     height: 151px;
     background-color: #6F1EAA;
 }
 
+/*footer styles */
 
 .footer {
     width: 1440px;
@@ -465,6 +480,8 @@
     color: #000000;
     
 }
+
+/*policy styles */
 
 .policy__block {
 background-color: #48156D;
