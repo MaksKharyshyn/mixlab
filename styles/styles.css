@@ -1,481 +1,444 @@
-/* header styles */
 .header {
     display: flex;
     justify-content: space-around;
-}
-
-.nav__list {
+    margin-top: 30px;
+  }
+  
+  .nav__list {
     display: flex;
-}
-
-.nav__link {
+  }
+  
+  .nav__link {
     font-family: Roboto;
     font-weight: 400;
     font-size: 14px;
-    line-height: 18.2px;
+    line-height: 18px;
     color: #000000;
-}
-
-.registr__btn {
-
+  }
+  
+  .nav__item {
+    margin-right: 33px;
+  }
+  
+  .nav__item:last-child {
+    margin-right: 0;
+  }
+  
+  .registr__btn {
     font-family: Roboto;
     font-weight: 400;
     font-size: 14px;
-    line-height: 18.2px;
+    line-height: 18px;
     color: #6F1EAA;
-}
-
-.registr_btn {
-    font-family: Roboto;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 18.2px;
-   background-color: #6F1EAA;
-   color: #FFFFFF;
-}
-
-/* pharmacy styles */
-
-.pharmacy {
-    width: 1440px;
-    height: 651px;
-    background-color: #FEF7E5;
-}
-
-.pharmacy__title {
+    background-color: inherit;
+    border: none;
+  }
+  
+  .try {
+    background-color: #6F1EAA;
+    color: #FFFFFF;
+    border-radius: 19px;
+    padding: 10px 42px;
+    margin-left: 16px;  
+  
+  }
+  
+  .pharmacy {
+    background: url(/image/bottom.svg) no-repeat #FEF7E5;
+    padding: 102px 244px 384px 384px;
+  }
+  
+  .pharmacy__title {
+    margin: 0;
+    padding-bottom: 32px;
     font-family: Roboto;
     font-weight: 400;
     font-size: 55px;
     line-height: 67px;
     text-align: center;
     color: #000000;
-}
-.pharmacy__text {
-    width: 491px;
-    height: 68px;
-    left: 11px;
+  }
+  .pharmacy__text {
+    margin: 0;
+    padding-bottom: 32px;
     font-family: Roboto;
     font-weight: 400;
     font-size: 20px;
     line-height: 28px;
     text-align: center;
     color: #000000;
-}
-
-.pharmacy__btn {
-    background-color:#6F1EAA;
-    color: #FFFFFF;
-}
-
-/*dalmatian styles */
-
-.dalmatian {
+  }
+  
+  .pharmacy__btn__block {
     display: flex;
-}
-
-.dalmatian__title {
+    justify-content: center;
+  }
+  
+  .pharmacy__btn {
+    padding: 14px 40px;
     font-family: Roboto;
     font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #ffffff;
+    background-color: #6F1EAA;
+    border: none;
+    border-radius: 24px;
+  }
+  
+  .dalmatian {
+    display: flex;
+  }
+  
+  .left__side {
+    padding: 58px 0 0 150px;
+  }
+  
+  .dalmatian__title {
+    font-family: Roboto;
+    font-weight: 700;
     font-size: 44px;
     line-height: 53px;
     color: #000000;
-}
-
-.right__item {
-    border-bottom: 1px solid #F7A500;
-}
-
-.right__title {
+  }
+  
+  .right__side {
+    padding: 58px 150px 0 0 ;
+  }
+  
+  .right__list {
+    padding: 0 0 102px 104px;
+  }
+  
+  .right__title {
     font-family: Roboto;
     font-weight: 700;
     font-size: 24px;
-    line-height: 31.68px;
+    line-height: 31px;
     color: #6F1EAA;
-}
-
-.right__text {
+  }
+  
+  .right__text {
     font-family: Roboto;
     font-weight: 400;
     font-size: 16px;
-    line-height: 22.72px;
+    line-height: 22px;
     color: #000000;
-}
-
-.right__sub__title {
+  }
+  
+  .right__sub__title {
     font-family: Roboto;
     font-weight: 700;
     font-size: 24px;
-    line-height: 31.68px;
+    line-height: 31px;
     color: #6F1EAA;
-}
-
-.right__subject {
+  }
+  
+  .right__subject {
     font-family: Roboto;
     font-weight: 400;
     font-size: 16px;
-    line-height: 22.72px;
+    line-height: 23px;
     color: #000000;  
-}
-
-.right_title {
-    font-family: Roboto;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 31.68px;
-    color: #6F1EAA;
-}
-
-.right__headline {
+  }
+  
+  .right__headline {
     font-family: Roboto;
     font-weight: 400;
     font-size: 16px;
-    line-height: 22.72px;
+    line-height: 23px;
     color: #000000;  
-}
-
-/*works style*/
-
-.works__list {
-    display: flex;
-    margin-right: 65px;
-}
-
-.works__item {
-    padding-right: 32px;
-}
-
-.works__title {
+  }
+  
+  .works__title {
     font-family: Roboto;
     font-weight: 400;
     font-size: 44px;
     line-height: 53px;
     text-align: center;
-    color: #000000;  
-    margin-bottom: 65px; 
-}
-
-.works__card__title {
+    color: #000000;   
+  } 
+  
+  .works__card__title {
     font-family: Roboto;
     font-weight: 400;
     font-size: 24px;
     line-height: 31.68px;
     color: #6F1EAA;   
-}
-
-.works__text {
+  } 
+  
+  .works__text {
     font-family: Roboto;
     font-weight: 400;
     font-size: 16px;
     line-height: 22.72px;
     text-align: center;
     color: #000000;
-}
-
-.works__sub__title {
+  }
+  
+  .works__sub__title {
     font-family: Roboto;
     font-weight: 400;
     font-size: 24px;
     line-height: 31.68px;
     color: #6F1EAA 
-}
-
-.works__subject {
+  }
+  
+  .works__subject {
     font-family: Roboto;
     font-weight: 400;
     font-size: 16px;
     line-height: 22.72px;
     text-align: center;
     color: #000000
-}
-
-.works__card__title {
-    font-family: Roboto;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 31.68px;
-    color: #6F1EAA 
-}
-
-.works_text {
+  }
+  
+  .works_text {
     font-family: Roboto;
     font-weight: 400;
     font-size: 16px;
     line-height: 22.72px;
     text-align: center;
     color: #000000 
-}
-
-.works__btn {
+  }
+  
+  .works__btn {
     background-color:#6F1EAA;
     color: #FFFFFF;
-}
-
-/*taksa style */
-
-.taksa {
-    display: flex;
-}
-
-.oragne__text {
+  }
+  
+  .oragne__text {
     font-family: Roboto;
     font-weight: 700;
     font-size: 16px;
     line-height: 22.4px;
     letter-spacing: 0.96px;
     color: #F7A500  
-}
-
-.taksa__title {
+  }
+  
+  .taksa__title {
     font-family: Roboto;
     font-weight: 400;
     font-size: 44px;
     line-height: 53px;
-    color: #000000; 
-    padding-top: 8px; 
-}
-
-.taksa__text {
+    color: #000000;  
+  }
+  
+  .taksa__text {
     font-family: Roboto;
     font-weight: 400;
     font-size: 16px;
     line-height: 22.72px;
     color: #000000; 
-    padding-top: 40px;
-}
-
-.taksa__btn {
+  }
+  
+  .taksa__btn {
     background-color:#6F1EAA;
     color: #FFFFFF;
-}
-
-/*pets styles*/
-
-.pets__title {
+  }
+  
+  .pets__title {
     font-family: Roboto;
     font-weight: 700;
     font-size: 43px;
     line-height: 53px;
     text-align: center;
     color: #000000; 
-}
-
-.pets__text {
+  }
+  
+  .pets__text {
     font-family: Roboto;
     font-weight: 400;
     font-size: 20px;
     line-height: 33px;
     text-align: center;
     color: #000000; 
-    padding-top: 24px;
-}
-
-.descr__text {
+  }
+  
+  .descr_text {
     font-family: Roboto;
     font-weight: 400;
     font-size: 20px;
     line-height: 33px;
     text-align: center;
     color: #000000; 
-}
-
-.descr__link {
+  }
+  
+  .descr_link {
     font-family: Roboto;
     font-weight: 400;
     font-size: 20px;
-    line-height: 33px;
+    line-height: 33px; 
     color: #000000; 
-}
-
-.descr__sub__text {
+  } 
+  
+  .descr__sub__text {
     font-family: Roboto;
     font-weight: 400;
     font-size: 20px;
     line-height: 33px;
     text-align: center;
     color: #000000;
-}
-
-.descr__sub__link {
+  }
+  
+  .descr__sub__link {
     font-family: Roboto;
     font-weight: 400;
     font-size: 20px;
     line-height: 33px;
     color: #000000; 
-}
-
-.descr__sub__desk {
-    font-family: Roboto;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 33px;
-    text-align: center;
-    color: #000000;  
-}
-
-
-/*wild styles */
-
-.wild__title {
+  }
+  
+  .wild__title {
     font-family: Roboto;
     font-weight: 400;
     font-size: 44px;
     line-height: 53px;
     text-align: center;
     color: #000000; 
-}
-
-.wild__text {
+  }
+  
+  .wild__text {
     font-family: Roboto;
     font-weight: 500;
     font-size: 13px;
     line-height: 22.72px;
     text-align: center;
     color: #000000;
-}
-
-.orange__desk {
+  }
+  
+  .orange__desk {
     font-family: Roboto;
     font-weight: 400;
     font-size: 15px;
     line-height: 22.72px;
     color: #F7A500;
-}
-
-.wild__sub__title {
+  }
+  
+  .wild__sub__title {
     font-family: Roboto;
     font-weight: 400;
     font-size: 24px;
     line-height: 31.68px;
     text-align: center;
     color: #000000; 
-}
-
-.sub__text {
+  }
+  
+  .sub__text {
     font-family: Roboto;
     font-weight: 400;
     font-size: 11px;
     line-height: 22.72px; 
     color: #000000;
-}
-
-.card__link {
+  }
+  
+  .card__link {
     font-family: Roboto;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
     color: #6F1EAA; 
-}
-
-.orange_text {
+  }
+  
+  .orange_text {
     font-family: Roboto;
     font-weight: 400;
     font-size: 15px;
     line-height: 22.72px;
     color: #F7A500;
-}
-
-.wild__subtitle {
+  }
+  
+  .wild__subtitle {
     font-family: Roboto;
     font-weight: 400;
     font-size: 24px;
     line-height: 31.68px;
     text-align: center;
     color: #000000;
-}
-
-.wild__btn {
+  }
+  
+  .wild__btn {
     background-color:#6F1EAA;
     color: #FFFFFF; 
-}
-
-/*advertising styles*/
-
-.advertising {
-    width: 1440px;
-    height: 151px;
+  }
+  
+  .advertising {
     background-color: #6F1EAA;
-}
-
-/*footer styles */
-
-.footer {
-    width: 1440px;
-    height: 430px;
+  }
+  
+  
+  .footer {
     background-color: #48156D;
-}
-
-.quick__title {
+  }
+  
+  .quick__title {
     font-family: Roboto;
     font-weight: 400;
     font-size: 12px;
     line-height: 14px;
     letter-spacing: 0.6px;
     color: #C282F0; 
-}
-
-.quick__link {
+  }
+  
+  .quick__link {
     font-family: Roboto;
     font-weight: 400;
     font-size: 14px;
     line-height: 18.2px; 
     color: #FFFFFF;
-}
-
-.contact__title {
+  }
+  
+  .contact__title {
     font-family: Roboto;
     font-weight: 400;
     font-size: 12px;
     line-height: 14px;
     letter-spacing: 0.6px;
     color: #C282F0;  
-}
-
-.contact__link {
+  }
+  
+  .contact__link {
     font-family: Roboto;
     font-weight: 400;
     font-size: 14px;
     line-height: 18.2px; 
     color: #FFFFFF; 
-}
-
-.address__title {
+  }
+  
+  .address__title {
     font-family: Roboto;
     font-weight: 400;
     font-size: 12px;
     line-height: 14px;
     letter-spacing: 0.6px;
     color: #C282F0;  
-}
-
-.addres__map {
+  }
+  
+  .addres__map {
     font-family: Roboto;
     font-weight: 400;
     font-size: 14px;
     line-height: 18.2px; 
     color: #FFFFFF;
-}
-
-.social__block {
+  }
+  
+  .social__block {
     background-color: #48156D;
-}
-
-.social__ico {
-    width: 9.72px;
-    height: 24px;
+  }
+  
+  .social__ico {
     color: #000000;
     
-}
-
-/*policy styles */
-
-.policy__block {
-background-color: #48156D;
-}
-
-.policy__link {
+  }
+  
+  .policy__block {
+  background-color: #48156D;
+  }
+  
+  .policy__link {
     font-family: Roboto;
     font-weight: 400;
     font-size: 14px;
     line-height: 18.2px; 
     color: #FFFFFF; 
-}
+  }
