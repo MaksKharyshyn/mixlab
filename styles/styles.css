@@ -73,10 +73,6 @@
     display: flex;
 }
 
-.left__side {
-    
-}
-
 .dalmatian__title {
     font-family: Roboto;
     font-weight: 400;
@@ -88,6 +84,7 @@
 .right__item {
     border-bottom: 1px solid #F7A500;
 }
+
 .right__title {
     font-family: Roboto;
     font-weight: 700;
@@ -157,7 +154,7 @@
     margin-bottom: 65px; 
 }
 
-.works__title {
+.works__card__title {
     font-family: Roboto;
     font-weight: 400;
     font-size: 24px;
@@ -191,7 +188,7 @@
     color: #000000
 }
 
-.works_title {
+.works__card__title {
     font-family: Roboto;
     font-weight: 400;
     font-size: 24px;
@@ -218,6 +215,7 @@
 .taksa {
     display: flex;
 }
+
 .oragne__text {
     font-family: Roboto;
     font-weight: 700;
@@ -288,23 +286,6 @@
     color: #000000; 
 }
 
-.descr_text {
-    font-family: Roboto;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 33px;
-    text-align: center;
-    color: #000000; 
-}
-
-.descr_link {
-    font-family: Roboto;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 33px;
-    color: #000000; 
-}
-
 .descr__sub__text {
     font-family: Roboto;
     font-weight: 400;
@@ -322,23 +303,6 @@
     color: #000000; 
 }
 
-.descr__desk {
-    font-family: Roboto;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 33px;
-    text-align: center;
-    color: #000000; 
-}
-
-.descr__network {
-    font-family: Roboto;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 33px;
-    color: #000000; 
-}
-
 .descr__sub__desk {
     font-family: Roboto;
     font-weight: 400;
@@ -348,13 +312,6 @@
     color: #000000;  
 }
 
-.descr__hookup {
-    font-family: Roboto;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 33px;
-    color: #000000;  
-}
 
 /*wild styles */
 
