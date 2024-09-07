@@ -1,4 +1,5 @@
-.header {
+/*header style */
+    .header {
     display: flex;
     justify-content: space-around;
     margin-top: 30px;
@@ -40,9 +41,9 @@
     border-radius: 19px;
     padding: 10px 42px;
     margin-left: 16px;  
-  
   }
-  
+  /*pharmacy style */
+
   .pharmacy {
     background: url(/image/bottom.svg) no-repeat #FEF7E5;
     padding: 102px 244px 384px 384px;
@@ -85,7 +86,9 @@
     border: none;
     border-radius: 24px;
   }
-  
+
+  /*dalmatians style */
+
   .dalmatian {
     display: flex;
   }
@@ -149,6 +152,8 @@
     line-height: 23px;
     color: #000000;  
   }
+
+  /*works style */
   
   .works__title {
     font-family: Roboto;
@@ -215,13 +220,24 @@
     letter-spacing: 0.96px;
     color: #F7A500  
   }
+
+  /*taksa style */
   
+  .taksa {
+    display: flex;
+  }
+
+  .oragne__text {
+    padding-top: 150px;
+  }
+
+
   .taksa__title {
     font-family: Roboto;
     font-weight: 400;
     font-size: 44px;
     line-height: 53px;
-    color: #000000;  
+    color: #000000; 
   }
   
   .taksa__text {
@@ -230,12 +246,16 @@
     font-size: 16px;
     line-height: 22.72px;
     color: #000000; 
+    padding-top: 40px;
+    padding-bottom: 36px;
   }
   
   .taksa__btn {
     background-color:#6F1EAA;
     color: #FFFFFF;
   }
+
+  /*pets style*/
   
   .pets__title {
     font-family: Roboto;
@@ -252,10 +272,13 @@
     font-size: 20px;
     line-height: 33px;
     text-align: center;
-    color: #000000; 
+    color: #000000;
+    margin-top: 24px; 
   }
-  
-  .descr_text {
+   
+  /*pets cards style*/
+
+  .descr__text {
     font-family: Roboto;
     font-weight: 400;
     font-size: 20px;
@@ -264,7 +287,7 @@
     color: #000000; 
   }
   
-  .descr_link {
+  .descr__link {
     font-family: Roboto;
     font-weight: 400;
     font-size: 20px;
@@ -281,13 +304,15 @@
     color: #000000;
   }
   
-  .descr__sub__link {
+  .descr__link {
     font-family: Roboto;
     font-weight: 400;
     font-size: 20px;
     line-height: 33px;
     color: #000000; 
   }
+
+  /*wild style*/
   
   .wild__title {
     font-family: Roboto;
@@ -307,6 +332,8 @@
     color: #000000;
   }
   
+  /*wild card style*/
+
   .orange__desk {
     font-family: Roboto;
     font-weight: 400;
@@ -320,7 +347,6 @@
     font-weight: 400;
     font-size: 24px;
     line-height: 31.68px;
-    text-align: center;
     color: #000000; 
   }
   
@@ -348,29 +374,24 @@
     color: #F7A500;
   }
   
-  .wild__subtitle {
-    font-family: Roboto;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 31.68px;
-    text-align: center;
-    color: #000000;
-  }
-  
   .wild__btn {
     background-color:#6F1EAA;
     color: #FFFFFF; 
   }
+
+  /*advertising style */
   
   .advertising {
     background-color: #6F1EAA;
   }
   
-  
+  /*footer style */
+
   .footer {
     background-color: #48156D;
   }
-  
+  /*quick style */
+
   .quick__title {
     font-family: Roboto;
     font-weight: 400;
@@ -388,6 +409,8 @@
     color: #FFFFFF;
   }
   
+  /*contact style*/
+
   .contact__title {
     font-family: Roboto;
     font-weight: 400;
@@ -405,6 +428,8 @@
     color: #FFFFFF; 
   }
   
+  /*address style*/
+
   .address__title {
     font-family: Roboto;
     font-weight: 400;
@@ -422,14 +447,17 @@
     color: #FFFFFF;
   }
   
+  /*social style*/
+
   .social__block {
     background-color: #48156D;
   }
   
   .social__ico {
     color: #000000;
-    
   }
+
+  /*policy style*/
   
   .policy__block {
   background-color: #48156D;
